@@ -119,10 +119,10 @@ market we have made happy more than 1000 families
         <section class="control">
             <div class="container control__container">
                 <h2 class="heading control__heading">online control</h2>
-                <div class="control__icon__container">
-                    <div class="control__icon__line"></div>
+                <div class="control__icon__container icon__container">
+                    <div class="control__icon__line icon__line"></div>
                     <div class="control__icon"></div>
-                    <div class="control__icon__line"></div>
+                    <div class="control__icon__line icon__line"></div>
                 </div>
                 <div class="control__img__container">
                     <div class="control__play__btn"></div>
@@ -138,21 +138,256 @@ market we have made happy more than 1000 families
                         Leave a request below and you will receive a link to the broadcast.</p>
                 </div>
                 <form action="" class="control__form">
-                    <div class="form__name form__item">
+                    <div class="form__name form__item form_name_types">
                         <label class="form__label" for="name">Name</label>
                         <input class="form__input" type="text" id="name" name="name" placeholder="What is your name:">
                     </div>
-                    <div class="form__phone form__item">
+                    <div class="form__phone form__item form_phone_types">
                         <label class="form__label" for="phone">Phone</label>
                         <input class="form__input" type="number" id="phone" name="phone"
                             placeholder="Your phone number:">
                     </div>
                     <button class="btn control__btn form__item">Submit</button>
                     <div class="form__check form__item">
-                        <input class="form__check" type="checkbox" name="check" id="check" checked>
-                        <label class="form__check__label" for="check">I agree to the processing of personal data</label>
+                        <label class="form__check__label">
+                            <input class="form__checkbox" type="checkbox" name="check" checked>
+                            <span class="form__check__fake"></span>
+                            <span class="form__check__text">I agree to the processing of personal
+                                data</span>
+                        </label>
                     </div>
                 </form>
+            </div>
+        </section>
+        <!-- types of repair -->
+        <section class="types">
+            <div class="container types__container">
+                <h2 class="heading types__heading">types of repair</h2>
+                <div class="types__icon__container icon__container">
+                    <div class="types__icon__line icon__line"></div>
+                    <div class="types__icon"></div>
+                    <div class="types__icon__line icon__line"></div>
+                </div>
+                <ul class="types__list">
+                    <li class="types__list__item redecorating">
+                        <div class="inside__list__container">
+                            <h4 class="heading inside__list__heading">redecorating</h4>
+                            <ul class="inside__list">
+                                <li class="inside__list__item">Dismantling of old coatings</li>
+                                <li class="inside__list__item">Wallpapering</li>
+                                <li class="inside__list__item">Painting walls and ceilings</li>
+                                <li class="inside__list__item">Laying flooring</li>
+                                <li class="inside__list__item">Replacing plumbing</li>
+                                <li class="inside__list__item">Replacing sockets and switches</li>
+                                <li class="inside__list__item">Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="list__pricetag redecorating__pricetag">
+                            <h3 class="heading">from 900 rub/m2</h3>
+                        </div>
+                    </li>
+                    <li class="types__list__item overhaul">
+                        <div class="inside__list__container">
+                            <h4 class="heading inside__list__heading">Overhaul</h4>
+                            <ul class="inside__list">
+                                <li class="inside__list__item">Dismantling of old coatings</li>
+                                <li class="inside__list__item">Wallpapering</li>
+                                <li class="inside__list__item">Painting walls and ceilings</li>
+                                <li class="inside__list__item">Laying flooring</li>
+                                <li class="inside__list__item">Replacing plumbing</li>
+                                <li class="inside__list__item">Replacing sockets and switches</li>
+                                <li class="inside__list__item">Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="list__pricetag overhaul__pricetag">
+                            <h3 class="heading">from 1800 rub/m<sub>2</sub></h3>
+                        </div>
+                    </li>
+                    <li class="types__list__item designer">
+                        <div class="inside__list__container">
+                            <h4 class="heading inside__list__heading">Designer Repair</h4>
+                            <ul class="inside__list">
+                                <li class="inside__list__item">Dismantling of old coatings</li>
+                                <li class="inside__list__item">Wallpapering</li>
+                                <li class="inside__list__item">Painting walls and ceilings</li>
+                                <li class="inside__list__item">Laying flooring</li>
+                                <li class="inside__list__item">Replacing plumbing</li>
+                                <li class="inside__list__item">Replacing sockets and switches</li>
+                                <li class="inside__list__item">Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="list__pricetag designer__pricetag">
+                            <h3 class="heading">from 4000 rub/m<sub>2</sub></h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- request form -->
+        <section class="request">
+            <div class="request__left">
+                <ul class="request__list">
+                    <li class="request__item">
+                        <span class="request__number heading">01</span>
+                        <p class="request__text">Our specialist will arrive for measurements per day
+                            contact, or appoint a date convenient for you</p>
+                    </li>
+                    <li class="request__item">
+                        <span class="request__number heading">02</span>
+                        <p class="request__text">Free metering</p>
+                    </li>
+                    <li class="request__item">
+                        <span class="request__number heading">03</span>
+                        <p class="request__text">Free consultation</p>
+                    </li>
+                    <li class="request__item">
+                        <span class="request__number heading">04</span>
+                        <p class="request__text">Get a cost estimate and
+                            the timing of your future repairs</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="request__right">
+                <form action="" class="request__form">
+                    <p class="request__form__text">Leave a request for free
+                        departure of the measurer</p>
+                    <div class="request__form__container">
+                        <div class="form__name form__item form_item_request">
+                            <label class="form__label form_label_request" for="name">Name</label>
+                            <input class="form__input form_input_request" type="text" id="name" name="name"
+                                placeholder="What is your name:">
+                        </div>
+                        <div class="form__phone form__item form_item_request">
+                            <label class="form__label form_label_request" for="phone">Phone</label>
+                            <input class="form__input form_input_request" type="number" id="phone" name="phone"
+                                placeholder="Your phone number:">
+                        </div>
+                        <div class="form__email form__item form_item_request">
+                            <label class="form__label form_label_request" for="email">Email</label>
+                            <input class="form__input form_input_request" type="email" id="email" name="email"
+                                placeholder="Your email">
+                        </div>
+                        <div class="form__check form__item request_check">
+                            <label class="form__check__label label_request">
+                                <input class="form__checkbox" type="checkbox" name="check" checked>
+                                <span class="form__check__fake"></span>
+                                <span class="form__check__text check_text_request">I agree to the processing of personal
+                                    data</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn request_form_btn">Call the measurer</button>
+                </form>
+                <div class="piggy__container">
+                    <div class="piggy__img__container"></div>
+                    <p class="piggy__text">Help save 10 - 20% of the
+                        cost of materials</p>
+                </div>
+            </div>
+        </section>
+        <!-- fantasies -->
+        <section class="fantasies">
+            <div class="container fantasies__container">
+                <div class="fantasies__left">
+                    <h2 class="heading fantasies__heading">We realize your
+                        wildest fantasies</h2>
+                    <ul class="fantasies__list">
+                        <li class="fantasies__item">American classic</li>
+                        <li class="fantasies__item">Empire</li>
+                        <li class="fantasies__item">Classical</li>
+                        <li class="fantasies__item">Loft</li>
+                        <li class="fantasies__item">Minimalism</li>
+                        <li class="fantasies__item">Provence</li>
+                        <li class="fantasies__item">Romanticism</li>
+                        <li class="fantasies__item">Scandinavian style</li>
+                        <li class="fantasies__item">Mediterranean style</li>
+                        <li class="fantasies__item">High tech</li>
+                        <li class="fantasies__item">Electicism</li>
+                    </ul>
+                </div>
+                <div class="fantasies__right">
+                    <ul class="fantasies__right__list">
+                        <li class="fantasies__right__item fantasies_right_item1">
+                            <img src="./img/fantasies-1.jpg" alt="" class="fantasies__right__img fantasies_img1">
+                        </li>
+                        <li class="fantasies__right__item fantasies_right_item2">
+                            <img src="./img/fantasies-2.jpg" alt="" class="fantasies__right__img fantasies_img2">
+                        </li>
+                        <li class="fantasies__right__item fantasies_right_item3">
+                            <img src="./img/fantasies-3.jpg" alt="" class="fantasies__right__img fantasies_img3">
+                        </li>
+                        <li class="fantasies__right__item fantasies_right_item4">
+                            <img src="./img/fantasies-4.jpg" alt="" class="fantasies__right__img fantasies_img4">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- our clients -->
+        <section class="clients">
+            <div class="container clients__container">
+                <h2 class="heading clients__heading">our clients</h2>
+                <div class="clients__icon__container icon__container">
+                    <div class="clients__icon__line icon__line"></div>
+                    <div class="clients__icon"></div>
+                    <div class="clients__icon__line icon__line"></div>
+                </div>
+                <p class="clients__text">80% of our customers recommend us to their
+                    friends and family.</p>
+                <ul class="clients__list">
+                    <li class="clients__item">
+                        <div class="clients__item__header">
+                            <div class="clients__item__img maria"></div>
+                            <h4 class="heading clients__item__heading">Fedosova Maria
+                                Konstantinovna</h4>
+                        </div>
+                        <p class="clients__item__text">I want to thank the guys for their work. We put your shower part
+                            in repair. I am very grateful that I referred to the repair as to my own. Great thanks I
+                            express the project to Georgia for its professionalism and approach. </p>
+                        <p class="clients__item__text">
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.</p>
+                        <div class="clients__item__container">
+                            <h5 class="heading clients__item__area">40 m2</h5>
+                            <h5 class="heading clients__item__time">48 days</h5>
+                        </div>
+                    </li>
+                    <li class="clients__item">
+                        <div class="clients__item__header">
+                            <div class="clients__item__img sergey"></div>
+                            <h4 class="heading clients__item__heading">Afanasyev Sergey Alexandrovich</h4>
+                        </div>
+                        <p class="clients__item__text">I want to thank the guys for their work. We put your shower part
+                            in repair. I am very grateful that I referred to the repair as to my own. Great thanks I
+                            express the project to Georgia for its professionalism and approach. </p>
+                        <p class="clients__item__text">
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.</p>
+                        <div class="clients__item__container">
+                            <h5 class="heading clients__item__area">90 m2</h5>
+                            <h5 class="heading clients__item__time">128 days</h5>
+                        </div>
+                    </li>
+                    <li class="clients__item">
+                        <div class="clients__item__header">
+                            <div class="clients__item__img egor"></div>
+                            <h4 class="heading clients__item__heading">Kiriev Egor Leonidovich</h4>
+                        </div>
+                        <p class="clients__item__text">I want to thank the guys for their work. We put your shower part
+                            in repair. I am very grateful that I referred to the repair as to my own. Great thanks I
+                            express the project to Georgia for its professionalism and approach. </p>
+                        <p class="clients__item__text">
+                            The repair process was turned out in terms, faster than anticipated. Team mobile and
+                            professional. Works performed qualitatively without comments. Quality satisfied. Prices
+                            democratic. I recommend these masters.</p>
+                        <div class="clients__item__container">
+                            <h5 class="heading clients__item__area">56 m2</h5>
+                            <h5 class="heading clients__item__time">86 days</h5>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
