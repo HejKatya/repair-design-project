@@ -82,11 +82,13 @@ a {
 
 /* header */
 
-.header {
+.header,
+.footer {
     background-color: #131313;
 }
 
-.header__container {
+.header__container,
+.footer__container {
     height: 83px;
     display: flex;
     justify-content: space-between;
@@ -122,7 +124,8 @@ a {
     text-decoration: underline;
 }
 
-.header__btn {
+.header__btn,
+.footer__btn {
     font-style: italic;
     font-size: 11px;
     line-height: 15px;
@@ -408,7 +411,8 @@ a {
 
 .form__name,
 .form__phone,
-.form__email {
+.form__email,
+.form__question {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -430,6 +434,7 @@ a {
 }
 
 .form__input {
+    background-color: transparent;
     padding-bottom: 8px;
     width: 231px;
     border-top: 0;
@@ -697,7 +702,6 @@ a {
 
 .form_input_request {
     width: 408px;
-    background-color: #131313;
     padding-bottom: 3px;
 }
 
@@ -760,7 +764,7 @@ a {
 .fantasies {
     margin-top: 129.6px;
     height: 1018px;
-    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url('./img/fantasies-background.jpg');
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url('./img/fantasies-background.jpg');
     background-repeat: no-repeat;
     background-size: 100% 864px;
     background-position: 0 113px;
@@ -786,6 +790,7 @@ a {
 }
 
 .fantasies__item {
+    cursor: pointer;
     margin-bottom: 10px;
     font-size: 20px;
     line-height: 38px;
@@ -858,6 +863,10 @@ a {
 
 .clients {
     margin-top: 69.26px;
+    padding-bottom: 381.65px;
+    background-image: url('./img/clients-background-left.svg'), url('./img/clients-background-right.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, bottom right;
 }
 
 .clients__container {
@@ -984,3 +993,137 @@ a {
     background-size: 32.78px 31.35px;
     background-position: 17.26px center;
 }
+
+/* info */
+
+.info {
+    height: 954px;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.8) 100%), url('./img/footer-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info__form {
+    margin-top: -222.66px;
+    width: 883px;
+    height: 445.32px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+}
+
+.info__form__container {
+    margin-top: 34.4px;
+    width: 520px;
+    height: 376.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info__form__heading {
+    margin-bottom: 45.8px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.info__form__inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_name_info {
+    margin-right: 58px;
+}
+
+.form_question_info {
+    margin-top: 48.8px;
+}
+
+.input_question_info {
+    width: 516.8px;
+}
+
+.form_label_info {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form_input_info::placeholder {
+    color: #fff;
+}
+
+.form__check_info {
+    margin-top: 48.2px;
+}
+
+.form__check__text_info {
+    color: #fff;
+}
+
+.info__btn {
+    margin-top: 25px;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 20px 54px 19px 54px;
+}
+
+.info__heading {
+    width: 589px;
+    margin-top: 52px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E3B873;
+    text-align: center;
+}
+
+.info__phone__link {
+    color: #E3B873;
+}
+
+.info__phone__link:hover {
+    color: #dda955;
+}
+
+.info__map__container {
+    margin-top: 44px;
+}
+
+.info__socials__link {
+    width: 28px;
+    height: 28px;
+    padding: 8.8px 7px 8px 7px;
+    background-color: #E3B873;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.info__socials__link:hover {
+    background-color: #dda955;
+}
+
+.info__socials__link:first-child {
+    margin-right: 15px;
+}
+
+.info__email__img {
+    width: 14px;
+
+}
+
+.info__insta__img {
+    width: 12px;
+}
+
+
+.info__map__img {
+    width: 925px;
+    height: 465px;
+}
+
+/* media queries */

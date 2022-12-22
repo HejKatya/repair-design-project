@@ -23,12 +23,12 @@
             </div>
             <nav class="nav header__nav">
                 <ul class="nav__list header_nav_list">
-                    <li class="nav_list_item"><a href="" class="nav_list_link">home</a></li>
-                    <li class="nav_list_item"><a href="" class="nav_list_link">projects</a></li>
-                    <li class="nav_list_item"><a href="" class="nav_list_link">measurement</a></li>
+                    <li class="nav_list_item"><a href="#hero" class="nav_list_link">home</a></li>
+                    <li class="nav_list_item"><a href="#projects" class="nav_list_link">projects</a></li>
+                    <li class="nav_list_item"><a href="#request" class="nav_list_link">measurement</a></li>
                     <li class="nav_list_item"><a href="" class="nav_list_link">team</a></li>
-                    <li class="nav_list_item"><a href="" class="nav_list_link">reviews</a></li>
-                    <li class="nav_list_item"><a href="" class="nav_list_link">contacts</a></li>
+                    <li class="nav_list_item"><a href="#clients" class="nav_list_link">reviews</a></li>
+                    <li class="nav_list_item"><a href="#info" class="nav_list_link">contacts</a></li>
                 </ul>
             </nav>
             <div class="phone header_phone">
@@ -39,7 +39,7 @@
     </header>
     <main>
         <!-- hero -->
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container hero__container">
                 <div class="hero__content">
                     <h1 class="heading hero__heading">Turnkey Repair in the
@@ -56,7 +56,7 @@ cost of materials due to the organization of work</pre>
             </div>
         </section>
         <!-- completed projects -->
-        <section class="completed">
+        <section class="completed" id="projects">
             <div class="container completed__container">
                 <div class="left completed__left">
                     <h2 class="heading left__heading">Completed projects</h2>
@@ -224,7 +224,7 @@ market we have made happy more than 1000 families
             </div>
         </section>
         <!-- request form -->
-        <section class="request">
+        <section class="request" id="request">
             <div class="request__left">
                 <ul class="request__list">
                     <li class="request__item">
@@ -324,7 +324,7 @@ market we have made happy more than 1000 families
             </div>
         </section>
         <!-- our clients -->
-        <section class="clients">
+        <section class="clients" id="clients">
             <div class="container clients__container">
                 <h2 class="heading clients__heading">our clients</h2>
                 <div class="clients__icon__container icon__container">
@@ -390,7 +390,75 @@ market we have made happy more than 1000 families
                 </ul>
             </div>
         </section>
+        <section class="info" id="info">
+            <form action="" class="info__form">
+                <div class="info__form__container">
+                    <h2 class="heading info__form__heading">have any questions?</h2>
+                    <div class="info__form__inputs">
+                        <div class="form__name form__item form_item_info form_name_info">
+                            <label class="form__label form_label_info" for="name">Name</label>
+                            <input class="form__input form_input_info input_name_info" type="text" id="name" name="name"
+                                placeholder="What is your name:">
+                        </div>
+                        <div class="form__phone form__item form_item_info form_phone_info">
+                            <label class="form__label form_label_info" for="phone">Phone</label>
+                            <input class="form__input form_input_info input_phone_info" type="number" id="phone"
+                                name="phone" placeholder="Your phone number:">
+                        </div>
+                        <div class="form__question form__item form_item_info form_question_info">
+                            <label class="form__label form_label_info" for="question">Question</label>
+                            <input class="form__input form_input_info input_question_info" type="text" id="question"
+                                name="question" placeholder="I want to know:">
+                        </div>
+                    </div>
+                    <div class="form__check form__check_info form__item">
+                        <label class="form__check__label">
+                            <input class="form__checkbox" type="checkbox" name="check" checked>
+                            <span class="form__check__fake"></span>
+                            <span class="form__check__text form__check__text_info">I agree to the processing of personal
+                                data</span>
+                        </label>
+                    </div>
+                    <button class="btn info__btn form__item">Submit</button>
+                </div>
+            </form>
+            <h2 class="heading info__heading">Rostov-on-Don, Nansen St., 239 Shopping Center
+                Decorum Tel <a class="info__phone__link" href="tel:+79287683229">+7 (928) 768 32 29</a></h2>
+            <div class="info__socials__container">
+                <a href="" class="info__socials__link">
+                    <img src="./img/email-icon.svg" alt="an icon with an envelope" class="info__email__img">
+                </a>
+                <a href="" class="info__socials__link">
+                    <img src="./img/insta-icon.svg" alt="an icon with instagram logo" class="info__insta__img">
+                </a>
+            </div>
+            <div class="info__map__container">
+                <img src="./img/map.jpg" alt="black and white map of Rostov-on-Don" class="info__map__img">
+            </div>
+        </section>
     </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="logo footer__logo">
+                <span>IC "Repair Design Project"</span>
+            </div>
+            <nav class="nav footer__nav">
+                <ul class="nav__list footer_nav_list">
+                    <li class="nav_list_item"><a href="#hero" class="nav_list_link">home</a></li>
+                    <li class="nav_list_item"><a href="#projects" class="nav_list_link">projects</a></li>
+                    <li class="nav_list_item"><a href="#request" class="nav_list_link">measurement</a></li>
+                    <li class="nav_list_item"><a href="" class="nav_list_link">team</a></li>
+                    <li class="nav_list_item"><a href="#clients" class="nav_list_link">reviews</a></li>
+                    <li class="nav_list_item"><a href="#info" class="nav_list_link">contacts</a></li>
+                </ul>
+            </nav>
+            <div class="phone footer_phone">
+                <a href="tel: +79287683239" class="phone_link">+7 (928) 768-32-39</a>
+            </div>
+            <button class="btn footer__btn">request a call</button>
+        </div>
+    </footer>
 </body>
 
 </html>
