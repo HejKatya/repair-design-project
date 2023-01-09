@@ -103,6 +103,7 @@ a {
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.5);
+    color: #fff;
 }
 
 .form__input::placeholder {
@@ -518,7 +519,8 @@ a {
     margin-right: 49px;
 }
 
-.form__input_control::placeholder {
+.form__input_control::placeholder,
+.form__input_control {
     color: #363636;
 }
 
