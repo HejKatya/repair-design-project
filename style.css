@@ -313,6 +313,10 @@ a {
     line-height: 37px;
     color: #E3B873;
     margin-bottom: 34px;
+    background-image: url('./img/completed-line.svg');
+    background-repeat: no-repeat;
+    background-size: 100px 4px;
+    background-position: 175px 55px;
 }
 
 .projects__text {
@@ -367,6 +371,14 @@ a {
     background-repeat: no-repeat;
 }
 
+.slider__arrow-left:hover {
+    background-image: url('./img/arrow-left-active.svg');
+}
+
+.slider__arrow-right:hover {
+    background-image: url('./img/arrow-right-active.svg');
+}
+
 .slider__dot {
     width: 9.57px;
     height: 9.57px;
@@ -379,7 +391,7 @@ a {
     margin-right: 17.54px;
 }
 
-.slider__dot_white {
+.slider__dot_active {
     background-color: #fff;
 }
 
@@ -1444,6 +1456,7 @@ a {
         margin-bottom: 22px;
         font-size: 22px;
         line-height: 30px;
+        background-image: none;
     }
 
     .projects__text {
